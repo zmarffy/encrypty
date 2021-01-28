@@ -21,4 +21,9 @@ setuptools.setup(
         'zetuptools>=2.2.0',
         'cryptography'
     ],
+    entry_points={
+        'console_scripts': [
+            'encrypty = encrypty.__main__:main'
+        ],
+    },
 )
