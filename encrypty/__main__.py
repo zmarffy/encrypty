@@ -1,6 +1,7 @@
 import argparse
-from . import api
 import sys
+
+from . import api
 
 
 def main():
