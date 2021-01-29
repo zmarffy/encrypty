@@ -1,6 +1,8 @@
 # `encrypty`
 
-`encrypty` is a simple Python library for encrypting and decrypting stuff. It was inspired by [simple-crypt](https://github.com/andrewcooke/simple-crypt).
+`encrypty` is a simple Python library that wraps `cryptography` for encrypting and decrypting stuff. It was inspired by [simple-crypt](https://github.com/andrewcooke/simple-crypt).
+
+**DISCLAIMER**: No warranty; don't use this; whatever.
 
 ## Usage
 Use the public functions to generate a salt for encryption, encrypt, and decrypt stuff.
